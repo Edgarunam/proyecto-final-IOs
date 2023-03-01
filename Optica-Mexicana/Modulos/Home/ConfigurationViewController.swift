@@ -34,6 +34,7 @@ class ConfigurationViewController: UIViewController, UIImagePickerControllerDele
     }
     
     @IBAction func SaveButtonAction(){
+        view.endEditing(true)
         NotificationBanner(title:"Felicidades",subtitle: "Datos del usuario guardados con exito",style: .success).show()
         return
     }
