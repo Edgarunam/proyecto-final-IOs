@@ -3,6 +3,7 @@
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="Image references" minToolsVersion="12.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -67,6 +68,19 @@
                                 <color key="textColor" red="0.40784313725490196" green="0.76470588235294112" blue="0.8784313725490196" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleAspectFit" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Sdw-oJ-0tt">
+                                <rect key="frame" x="205" y="304" width="189" height="97"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Perfil">
+                                    <imageReference key="image" image="camera.aperture" catalog="system" symbolScale="default" variableValue="1"/>
+                                    <fontDescription key="titleFontDescription" type="boldSystem" pointSize="26"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <segue destination="jS1-EQ-P0K" kind="show" id="xkh-Jy-vRd"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="vDu-zF-Fre"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -77,10 +91,10 @@
             </objects>
             <point key="canvasLocation" x="986.95652173913049" y="-28.125"/>
         </scene>
-        <!--View Controller-->
+        <!--Formulario View Controller-->
         <scene sceneID="4E7-AF-8Tc">
             <objects>
-                <viewController id="xvU-ZS-IlA" sceneMemberID="viewController">
+                <viewController id="xvU-ZS-IlA" customClass="FormularioViewController" customModule="Optica_Mexicana" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="ZFx-sW-Hz4">
                         <rect key="frame" x="0.0" y="0.0" width="441" height="1195"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -268,16 +282,19 @@
                                         <textInputTraits key="textInputTraits"/>
                                     </textField>
                                     <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ipH-yz-9TM">
-                                        <rect key="frame" x="268" y="904" width="68" height="42"/>
+                                        <rect key="frame" x="246" y="904" width="112" height="42"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <color key="tintColor" systemColor="tertiarySystemBackgroundColor"/>
                                         <state key="normal" title="Button"/>
-                                        <buttonConfiguration key="configuration" style="plain" title="PDF" cornerStyle="fixed">
+                                        <buttonConfiguration key="configuration" style="plain" title="Guardar" cornerStyle="fixed">
                                             <backgroundConfiguration key="background" cornerRadius="15">
-                                                <color key="backgroundColor" systemColor="systemRedColor"/>
+                                                <color key="backgroundColor" red="0.40784313729999999" green="0.76470588240000004" blue="0.87843137250000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                             </backgroundConfiguration>
                                             <fontDescription key="titleFontDescription" type="boldSystem" pointSize="23"/>
                                         </buttonConfiguration>
+                                        <connections>
+                                            <action selector="SaveButtonAction" destination="xvU-ZS-IlA" eventType="touchUpInside" id="aRr-U7-hWI"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                                 <constraints>
@@ -328,6 +345,82 @@
             </objects>
             <point key="canvasLocation" x="2093.4782608695655" y="-27.455357142857142"/>
         </scene>
+        <!--Configuration View Controller-->
+        <scene sceneID="Ga4-Sh-xXj">
+            <objects>
+                <viewController id="jS1-EQ-P0K" customClass="ConfigurationViewController" customModule="Optica_Mexicana" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="X2G-28-b6s">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3TX-yk-t6Z">
+                                <rect key="frame" x="30" y="532" width="354" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="uyY-4K-a59"/>
+                                </constraints>
+                                <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Capturar">
+                                    <fontDescription key="titleFontDescription" type="boldSystem" pointSize="18"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="PhotoButtonAction" destination="jS1-EQ-P0K" eventType="touchUpInside" id="a7Q-U0-NE1"/>
+                                </connections>
+                            </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="wZy-JS-hT9">
+                                <rect key="frame" x="20" y="142" width="374" height="370"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Nombre" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="X1d-7J-a0u">
+                                <rect key="frame" x="30" y="590" width="79" height="26"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="21"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Ingresa el nombre de usuario" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="EKV-PR-7gT">
+                                <rect key="frame" x="20" y="644" width="374" height="34"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FdL-j4-dK3">
+                                <rect key="frame" x="30" y="726" width="123" height="46"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" systemColor="systemGreenColor"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Guardar">
+                                    <fontDescription key="titleFontDescription" type="boldSystem" pointSize="26"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="SaveButtonAction" destination="jS1-EQ-P0K" eventType="touchUpInside" id="xBJ-aF-aA2"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="Yoo-Lw-ddv"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="wZy-JS-hT9" firstAttribute="top" secondItem="Yoo-Lw-ddv" secondAttribute="top" constant="50" id="3T4-Ej-Uvv"/>
+                            <constraint firstItem="3TX-yk-t6Z" firstAttribute="leading" secondItem="Yoo-Lw-ddv" secondAttribute="leading" constant="30" id="4cP-Y8-NdK"/>
+                            <constraint firstItem="Yoo-Lw-ddv" firstAttribute="bottom" secondItem="3TX-yk-t6Z" secondAttribute="bottom" constant="280" id="9OT-rH-grq"/>
+                            <constraint firstItem="Yoo-Lw-ddv" firstAttribute="trailing" secondItem="wZy-JS-hT9" secondAttribute="trailing" constant="20" id="9h9-kz-jgX"/>
+                            <constraint firstItem="EKV-PR-7gT" firstAttribute="leading" secondItem="Yoo-Lw-ddv" secondAttribute="leading" constant="20" id="Fld-YP-Y55"/>
+                            <constraint firstItem="X1d-7J-a0u" firstAttribute="leading" secondItem="3TX-yk-t6Z" secondAttribute="leading" id="LVc-3v-jHj"/>
+                            <constraint firstItem="EKV-PR-7gT" firstAttribute="top" secondItem="X1d-7J-a0u" secondAttribute="bottom" constant="28" id="MA9-PO-Bpg"/>
+                            <constraint firstItem="Yoo-Lw-ddv" firstAttribute="trailing" secondItem="3TX-yk-t6Z" secondAttribute="trailing" constant="30" id="SPN-qR-kf0"/>
+                            <constraint firstItem="3TX-yk-t6Z" firstAttribute="top" secondItem="wZy-JS-hT9" secondAttribute="bottom" constant="20" id="aWM-qs-Eid"/>
+                            <constraint firstItem="wZy-JS-hT9" firstAttribute="leading" secondItem="Yoo-Lw-ddv" secondAttribute="leading" constant="20" id="dBb-Ud-H3M"/>
+                            <constraint firstItem="Yoo-Lw-ddv" firstAttribute="trailing" secondItem="EKV-PR-7gT" secondAttribute="trailing" constant="20" id="fdc-DM-cJC"/>
+                            <constraint firstItem="Yoo-Lw-ddv" firstAttribute="bottom" secondItem="EKV-PR-7gT" secondAttribute="bottom" constant="184" id="kGv-tJ-pph"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="Fo0-4K-vac"/>
+                    <connections>
+                        <outlet property="button" destination="3TX-yk-t6Z" id="F7G-HH-c8G"/>
+                        <outlet property="imageView" destination="wZy-JS-hT9" id="8r8-V0-XGi"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="c8j-sQ-74z" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1281" y="729"/>
+        </scene>
         <!--Navigation Controller-->
         <scene sceneID="8Jz-4B-2aP">
             <objects>
@@ -349,12 +442,13 @@
     </scenes>
     <resources>
         <image name="Intersect" width="187.5" height="183"/>
+        <image name="camera.aperture" catalog="system" width="128" height="123"/>
         <image name="doctor" width="256" height="256"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
-        <systemColor name="systemRedColor">
-            <color red="1" green="0.23137254901960785" blue="0.18823529411764706" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        <systemColor name="systemGreenColor">
+            <color red="0.20392156862745098" green="0.7803921568627451" blue="0.34901960784313724" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
         <systemColor name="tertiarySystemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>

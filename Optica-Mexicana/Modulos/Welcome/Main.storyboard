@@ -34,7 +34,9 @@
                                         </constraints>
                                         <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <state key="normal" title="Button"/>
-                                        <buttonConfiguration key="configuration" style="plain" title="Registrate"/>
+                                        <buttonConfiguration key="configuration" style="plain" title="Registrate">
+                                            <fontDescription key="titleFontDescription" type="boldSystem" pointSize="19"/>
+                                        </buttonConfiguration>
                                         <connections>
                                             <segue destination="NTK-h9-rPP" kind="show" id="d6l-Hf-XMh"/>
                                         </connections>
@@ -47,8 +49,8 @@
                                         </constraints>
                                         <color key="tintColor" systemColor="labelColor"/>
                                         <state key="normal" title="Button"/>
-                                        <buttonConfiguration key="configuration" style="plain" title="Iniciar">
-                                            <fontDescription key="titleFontDescription" type="boldSystem" pointSize="15"/>
+                                        <buttonConfiguration key="configuration" style="plain" title="Iniciar sesion">
+                                            <fontDescription key="titleFontDescription" type="boldSystem" pointSize="20"/>
                                         </buttonConfiguration>
                                         <connections>
                                             <segue destination="Vb2-ZE-kUF" kind="show" id="cq1-9c-eI1"/>

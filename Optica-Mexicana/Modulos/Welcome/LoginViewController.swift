@@ -41,7 +41,9 @@ class LoginViewController: UIViewController {
             
             performSegue(withIdentifier: "showHome", sender: nil)
         } else{
-            performSegue(withIdentifier: "showHome", sender: nil)
+           
+                NotificationBanner(title:"Error",subtitle: "Los datos no son correctos",style: .danger).show()
+                return
         }
         
     }

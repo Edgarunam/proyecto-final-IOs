@@ -23,6 +23,8 @@
 		E47FDB5729AED7F30088DB54 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E47FDB5629AED7F30088DB54 /* RegisterViewController.swift */; };
 		E47FDB5A29AEE0E40088DB54 /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E47FDB5929AEE0E40088DB54 /* Home.storyboard */; };
 		E4D70CFE29A3213900926A7A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E4D70CFD29A3213900926A7A /* Main.storyboard */; };
+		E4D73A5529AF5E130029F159 /* ConfigurationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4D73A5429AF5E130029F159 /* ConfigurationViewController.swift */; };
+		E4D73A5729AF6AC10029F159 /* FormularioViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4D73A5629AF6AC10029F159 /* FormularioViewController.swift */; };
 		E4FD4A6629ADCF3600E0BF6C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E4D70CFD29A3213900926A7A /* Main.storyboard */; };
 		E4FD4A6729ADCF3700E0BF6C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E4D70CFD29A3213900926A7A /* Main.storyboard */; };
 /* End PBXBuildFile section */
@@ -70,6 +72,8 @@
 		E47FDB5629AED7F30088DB54 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
 		E47FDB5929AEE0E40088DB54 /* Home.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Home.storyboard; sourceTree = "<group>"; };
 		E4D70CFD29A3213900926A7A /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		E4D73A5429AF5E130029F159 /* ConfigurationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfigurationViewController.swift; sourceTree = "<group>"; };
+		E4D73A5629AF6AC10029F159 /* FormularioViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormularioViewController.swift; sourceTree = "<group>"; };
 		F869A748193010573FE29A88 /* Pods_Optica_MexicanaTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Optica_MexicanaTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -177,6 +181,8 @@
 			isa = PBXGroup;
 			children = (
 				E47FDB5929AEE0E40088DB54 /* Home.storyboard */,
+				E4D73A5429AF5E130029F159 /* ConfigurationViewController.swift */,
+				E4D73A5629AF6AC10029F159 /* FormularioViewController.swift */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -455,10 +461,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E4D73A5729AF6AC10029F159 /* FormularioViewController.swift in Sources */,
 				E462E3B229A2DFF200A6D6E9 /* ViewController.swift in Sources */,
 				E47FDB5329AED7CD0088DB54 /* WelcomeViewController.swift in Sources */,
 				E462E3AE29A2DFF200A6D6E9 /* AppDelegate.swift in Sources */,
 				E47FDB5729AED7F30088DB54 /* RegisterViewController.swift in Sources */,
+				E4D73A5529AF5E130029F159 /* ConfigurationViewController.swift in Sources */,
 				E47FDB5529AED7E10088DB54 /* LoginViewController.swift in Sources */,
 				E462E3B029A2DFF200A6D6E9 /* SceneDelegate.swift in Sources */,
 			);
@@ -628,13 +636,15 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = CLF5XGZJ27;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Optica-Mexicana/Info.plist";
+				INFOPLIST_KEY_NSCameraUsageDescription = "La aplicacion necesita tu permiso para acceder a la camara del dispositivo";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = "";
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
 				INFOPLIST_KEY_UIRequiresFullScreen = NO;
 				INFOPLIST_KEY_UIStatusBarStyle = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
@@ -659,13 +669,15 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = CLF5XGZJ27;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Optica-Mexicana/Info.plist";
+				INFOPLIST_KEY_NSCameraUsageDescription = "La aplicacion necesita tu permiso para acceder a la camara del dispositivo";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = "";
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
 				INFOPLIST_KEY_UIRequiresFullScreen = NO;
 				INFOPLIST_KEY_UIStatusBarStyle = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
