@@ -1,0 +1,6 @@
+framework module Pods_Optica_MexicanaTests {
+  umbrella header "Pods-Optica-MexicanaTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

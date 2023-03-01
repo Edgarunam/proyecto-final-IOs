@@ -1,0 +1,809 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		765C8FE4C911D1888DC94A1B /* Pods_Optica_Mexicana_Optica_MexicanaUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AFCA8E18DC53154E6657B4C8 /* Pods_Optica_Mexicana_Optica_MexicanaUITests.framework */; };
+		85FEF40589DD98E5D99F1F8C /* Pods_Optica_Mexicana.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D206516466BBEE43BCC80BEA /* Pods_Optica_Mexicana.framework */; };
+		DCB3A930AA56F2D2F044ED66 /* Pods_Optica_MexicanaTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F869A748193010573FE29A88 /* Pods_Optica_MexicanaTests.framework */; };
+		E462E3AE29A2DFF200A6D6E9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E462E3AD29A2DFF200A6D6E9 /* AppDelegate.swift */; };
+		E462E3B029A2DFF200A6D6E9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E462E3AF29A2DFF200A6D6E9 /* SceneDelegate.swift */; };
+		E462E3B229A2DFF200A6D6E9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E462E3B129A2DFF200A6D6E9 /* ViewController.swift */; };
+		E462E3B729A2DFF600A6D6E9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E462E3B629A2DFF600A6D6E9 /* Assets.xcassets */; };
+		E462E3BA29A2DFF600A6D6E9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E462E3B829A2DFF600A6D6E9 /* LaunchScreen.storyboard */; };
+		E462E3C529A2DFF700A6D6E9 /* Optica_MexicanaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E462E3C429A2DFF700A6D6E9 /* Optica_MexicanaTests.swift */; };
+		E462E3CF29A2DFF700A6D6E9 /* Optica_MexicanaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E462E3CE29A2DFF700A6D6E9 /* Optica_MexicanaUITests.swift */; };
+		E462E3D129A2DFF700A6D6E9 /* Optica_MexicanaUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E462E3D029A2DFF700A6D6E9 /* Optica_MexicanaUITestsLaunchTests.swift */; };
+		E47FDB5329AED7CD0088DB54 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E47FDB5229AED7CD0088DB54 /* WelcomeViewController.swift */; };
+		E47FDB5529AED7E10088DB54 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E47FDB5429AED7E10088DB54 /* LoginViewController.swift */; };
+		E47FDB5729AED7F30088DB54 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E47FDB5629AED7F30088DB54 /* RegisterViewController.swift */; };
+		E47FDB5A29AEE0E40088DB54 /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E47FDB5929AEE0E40088DB54 /* Home.storyboard */; };
+		E4D70CFE29A3213900926A7A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E4D70CFD29A3213900926A7A /* Main.storyboard */; };
+		E4FD4A6629ADCF3600E0BF6C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E4D70CFD29A3213900926A7A /* Main.storyboard */; };
+		E4FD4A6729ADCF3700E0BF6C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E4D70CFD29A3213900926A7A /* Main.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E462E3C129A2DFF700A6D6E9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E462E3A229A2DFF100A6D6E9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E462E3A929A2DFF200A6D6E9;
+			remoteInfo = "Optica-Mexicana";
+		};
+		E462E3CB29A2DFF700A6D6E9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E462E3A229A2DFF100A6D6E9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E462E3A929A2DFF200A6D6E9;
+			remoteInfo = "Optica-Mexicana";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2CF2D8BE2B7A9DF8EB5AC490 /* Pods-Optica-MexicanaTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Optica-MexicanaTests.debug.xcconfig"; path = "Target Support Files/Pods-Optica-MexicanaTests/Pods-Optica-MexicanaTests.debug.xcconfig"; sourceTree = "<group>"; };
+		38100446FECBE8277129B17C /* Pods-Optica-MexicanaTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Optica-MexicanaTests.release.xcconfig"; path = "Target Support Files/Pods-Optica-MexicanaTests/Pods-Optica-MexicanaTests.release.xcconfig"; sourceTree = "<group>"; };
+		491DFE5C587F7B60A5097600 /* Pods-Optica-Mexicana-Optica-MexicanaUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Optica-Mexicana-Optica-MexicanaUITests.debug.xcconfig"; path = "Target Support Files/Pods-Optica-Mexicana-Optica-MexicanaUITests/Pods-Optica-Mexicana-Optica-MexicanaUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		5314FD835348FFEC6276B140 /* Pods-Optica-Mexicana-Optica-MexicanaUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Optica-Mexicana-Optica-MexicanaUITests.release.xcconfig"; path = "Target Support Files/Pods-Optica-Mexicana-Optica-MexicanaUITests/Pods-Optica-Mexicana-Optica-MexicanaUITests.release.xcconfig"; sourceTree = "<group>"; };
+		762FED9EA2C7F7734E5EB4BF /* Pods-Optica-Mexicana.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Optica-Mexicana.debug.xcconfig"; path = "Target Support Files/Pods-Optica-Mexicana/Pods-Optica-Mexicana.debug.xcconfig"; sourceTree = "<group>"; };
+		AFCA8E18DC53154E6657B4C8 /* Pods_Optica_Mexicana_Optica_MexicanaUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Optica_Mexicana_Optica_MexicanaUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB1415B71211AE88D095ED64 /* Pods-Optica-Mexicana.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Optica-Mexicana.release.xcconfig"; path = "Target Support Files/Pods-Optica-Mexicana/Pods-Optica-Mexicana.release.xcconfig"; sourceTree = "<group>"; };
+		D206516466BBEE43BCC80BEA /* Pods_Optica_Mexicana.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Optica_Mexicana.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E462E3AA29A2DFF200A6D6E9 /* Optica-Mexicana.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Optica-Mexicana.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E462E3AD29A2DFF200A6D6E9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E462E3AF29A2DFF200A6D6E9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		E462E3B129A2DFF200A6D6E9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E462E3B629A2DFF600A6D6E9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E462E3B929A2DFF600A6D6E9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E462E3BB29A2DFF600A6D6E9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E462E3C029A2DFF700A6D6E9 /* Optica-MexicanaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Optica-MexicanaTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E462E3C429A2DFF700A6D6E9 /* Optica_MexicanaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Optica_MexicanaTests.swift; sourceTree = "<group>"; };
+		E462E3CA29A2DFF700A6D6E9 /* Optica-MexicanaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Optica-MexicanaUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E462E3CE29A2DFF700A6D6E9 /* Optica_MexicanaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Optica_MexicanaUITests.swift; sourceTree = "<group>"; };
+		E462E3D029A2DFF700A6D6E9 /* Optica_MexicanaUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Optica_MexicanaUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		E47FDB5229AED7CD0088DB54 /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
+		E47FDB5429AED7E10088DB54 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		E47FDB5629AED7F30088DB54 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		E47FDB5929AEE0E40088DB54 /* Home.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Home.storyboard; sourceTree = "<group>"; };
+		E4D70CFD29A3213900926A7A /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		F869A748193010573FE29A88 /* Pods_Optica_MexicanaTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Optica_MexicanaTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E462E3A729A2DFF200A6D6E9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				85FEF40589DD98E5D99F1F8C /* Pods_Optica_Mexicana.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E462E3BD29A2DFF700A6D6E9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCB3A930AA56F2D2F044ED66 /* Pods_Optica_MexicanaTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E462E3C729A2DFF700A6D6E9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				765C8FE4C911D1888DC94A1B /* Pods_Optica_Mexicana_Optica_MexicanaUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		478BC171D48BF2FDCB47A94F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D206516466BBEE43BCC80BEA /* Pods_Optica_Mexicana.framework */,
+				AFCA8E18DC53154E6657B4C8 /* Pods_Optica_Mexicana_Optica_MexicanaUITests.framework */,
+				F869A748193010573FE29A88 /* Pods_Optica_MexicanaTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C15689BBFADD01A28E237BB4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				762FED9EA2C7F7734E5EB4BF /* Pods-Optica-Mexicana.debug.xcconfig */,
+				BB1415B71211AE88D095ED64 /* Pods-Optica-Mexicana.release.xcconfig */,
+				491DFE5C587F7B60A5097600 /* Pods-Optica-Mexicana-Optica-MexicanaUITests.debug.xcconfig */,
+				5314FD835348FFEC6276B140 /* Pods-Optica-Mexicana-Optica-MexicanaUITests.release.xcconfig */,
+				2CF2D8BE2B7A9DF8EB5AC490 /* Pods-Optica-MexicanaTests.debug.xcconfig */,
+				38100446FECBE8277129B17C /* Pods-Optica-MexicanaTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		E462E3A129A2DFF100A6D6E9 = {
+			isa = PBXGroup;
+			children = (
+				E462E3AC29A2DFF200A6D6E9 /* Optica-Mexicana */,
+				E462E3C329A2DFF700A6D6E9 /* Optica-MexicanaTests */,
+				E462E3CD29A2DFF700A6D6E9 /* Optica-MexicanaUITests */,
+				E462E3AB29A2DFF200A6D6E9 /* Products */,
+				C15689BBFADD01A28E237BB4 /* Pods */,
+				478BC171D48BF2FDCB47A94F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		E462E3AB29A2DFF200A6D6E9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E462E3AA29A2DFF200A6D6E9 /* Optica-Mexicana.app */,
+				E462E3C029A2DFF700A6D6E9 /* Optica-MexicanaTests.xctest */,
+				E462E3CA29A2DFF700A6D6E9 /* Optica-MexicanaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E462E3AC29A2DFF200A6D6E9 /* Optica-Mexicana */ = {
+			isa = PBXGroup;
+			children = (
+				E4D70CFB29A320C400926A7A /* Modulos */,
+				E4D70CFA29A320AE00926A7A /* comunes */,
+				E462E3BB29A2DFF600A6D6E9 /* Info.plist */,
+			);
+			path = "Optica-Mexicana";
+			sourceTree = "<group>";
+		};
+		E462E3C329A2DFF700A6D6E9 /* Optica-MexicanaTests */ = {
+			isa = PBXGroup;
+			children = (
+				E462E3C429A2DFF700A6D6E9 /* Optica_MexicanaTests.swift */,
+			);
+			path = "Optica-MexicanaTests";
+			sourceTree = "<group>";
+		};
+		E462E3CD29A2DFF700A6D6E9 /* Optica-MexicanaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E462E3CE29A2DFF700A6D6E9 /* Optica_MexicanaUITests.swift */,
+				E462E3D029A2DFF700A6D6E9 /* Optica_MexicanaUITestsLaunchTests.swift */,
+			);
+			path = "Optica-MexicanaUITests";
+			sourceTree = "<group>";
+		};
+		E47FDB5829AEE0CA0088DB54 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				E47FDB5929AEE0E40088DB54 /* Home.storyboard */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		E4D70CFA29A320AE00926A7A /* comunes */ = {
+			isa = PBXGroup;
+			children = (
+				E462E3AD29A2DFF200A6D6E9 /* AppDelegate.swift */,
+				E462E3AF29A2DFF200A6D6E9 /* SceneDelegate.swift */,
+				E462E3B129A2DFF200A6D6E9 /* ViewController.swift */,
+				E462E3B629A2DFF600A6D6E9 /* Assets.xcassets */,
+				E462E3B829A2DFF600A6D6E9 /* LaunchScreen.storyboard */,
+			);
+			path = comunes;
+			sourceTree = "<group>";
+		};
+		E4D70CFB29A320C400926A7A /* Modulos */ = {
+			isa = PBXGroup;
+			children = (
+				E47FDB5829AEE0CA0088DB54 /* Home */,
+				E4D70CFC29A3210200926A7A /* Welcome */,
+			);
+			path = Modulos;
+			sourceTree = "<group>";
+		};
+		E4D70CFC29A3210200926A7A /* Welcome */ = {
+			isa = PBXGroup;
+			children = (
+				E4D70CFD29A3213900926A7A /* Main.storyboard */,
+				E47FDB5229AED7CD0088DB54 /* WelcomeViewController.swift */,
+				E47FDB5429AED7E10088DB54 /* LoginViewController.swift */,
+				E47FDB5629AED7F30088DB54 /* RegisterViewController.swift */,
+			);
+			path = Welcome;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E462E3A929A2DFF200A6D6E9 /* Optica-Mexicana */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E462E3D429A2DFF700A6D6E9 /* Build configuration list for PBXNativeTarget "Optica-Mexicana" */;
+			buildPhases = (
+				311C20CF5233F04FF9184CA5 /* [CP] Check Pods Manifest.lock */,
+				E462E3A629A2DFF200A6D6E9 /* Sources */,
+				E462E3A729A2DFF200A6D6E9 /* Frameworks */,
+				E462E3A829A2DFF200A6D6E9 /* Resources */,
+				5D5C24F8E460F84563A16D5B /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Optica-Mexicana";
+			productName = "Optica-Mexicana";
+			productReference = E462E3AA29A2DFF200A6D6E9 /* Optica-Mexicana.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E462E3BF29A2DFF700A6D6E9 /* Optica-MexicanaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E462E3D729A2DFF700A6D6E9 /* Build configuration list for PBXNativeTarget "Optica-MexicanaTests" */;
+			buildPhases = (
+				20F3D3EFE3C3E8B006F72735 /* [CP] Check Pods Manifest.lock */,
+				E462E3BC29A2DFF700A6D6E9 /* Sources */,
+				E462E3BD29A2DFF700A6D6E9 /* Frameworks */,
+				E462E3BE29A2DFF700A6D6E9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E462E3C229A2DFF700A6D6E9 /* PBXTargetDependency */,
+			);
+			name = "Optica-MexicanaTests";
+			productName = "Optica-MexicanaTests";
+			productReference = E462E3C029A2DFF700A6D6E9 /* Optica-MexicanaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E462E3C929A2DFF700A6D6E9 /* Optica-MexicanaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E462E3DA29A2DFF700A6D6E9 /* Build configuration list for PBXNativeTarget "Optica-MexicanaUITests" */;
+			buildPhases = (
+				79C53345E783276DD031B70E /* [CP] Check Pods Manifest.lock */,
+				E462E3C629A2DFF700A6D6E9 /* Sources */,
+				E462E3C729A2DFF700A6D6E9 /* Frameworks */,
+				E462E3C829A2DFF700A6D6E9 /* Resources */,
+				5DB157C7BD4308A58F13E998 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E462E3CC29A2DFF700A6D6E9 /* PBXTargetDependency */,
+			);
+			name = "Optica-MexicanaUITests";
+			productName = "Optica-MexicanaUITests";
+			productReference = E462E3CA29A2DFF700A6D6E9 /* Optica-MexicanaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E462E3A229A2DFF100A6D6E9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1410;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					E462E3A929A2DFF200A6D6E9 = {
+						CreatedOnToolsVersion = 14.1;
+					};
+					E462E3BF29A2DFF700A6D6E9 = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = E462E3A929A2DFF200A6D6E9;
+					};
+					E462E3C929A2DFF700A6D6E9 = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = E462E3A929A2DFF200A6D6E9;
+					};
+				};
+			};
+			buildConfigurationList = E462E3A529A2DFF100A6D6E9 /* Build configuration list for PBXProject "Optica-Mexicana" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E462E3A129A2DFF100A6D6E9;
+			productRefGroup = E462E3AB29A2DFF200A6D6E9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E462E3A929A2DFF200A6D6E9 /* Optica-Mexicana */,
+				E462E3BF29A2DFF700A6D6E9 /* Optica-MexicanaTests */,
+				E462E3C929A2DFF700A6D6E9 /* Optica-MexicanaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E462E3A829A2DFF200A6D6E9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E462E3BA29A2DFF600A6D6E9 /* LaunchScreen.storyboard in Resources */,
+				E4D70CFE29A3213900926A7A /* Main.storyboard in Resources */,
+				E462E3B729A2DFF600A6D6E9 /* Assets.xcassets in Resources */,
+				E47FDB5A29AEE0E40088DB54 /* Home.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E462E3BE29A2DFF700A6D6E9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4FD4A6629ADCF3600E0BF6C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E462E3C829A2DFF700A6D6E9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4FD4A6729ADCF3700E0BF6C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		20F3D3EFE3C3E8B006F72735 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Optica-MexicanaTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		311C20CF5233F04FF9184CA5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Optica-Mexicana-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5D5C24F8E460F84563A16D5B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Optica-Mexicana/Pods-Optica-Mexicana-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Optica-Mexicana/Pods-Optica-Mexicana-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Optica-Mexicana/Pods-Optica-Mexicana-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5DB157C7BD4308A58F13E998 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Optica-Mexicana-Optica-MexicanaUITests/Pods-Optica-Mexicana-Optica-MexicanaUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Optica-Mexicana-Optica-MexicanaUITests/Pods-Optica-Mexicana-Optica-MexicanaUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Optica-Mexicana-Optica-MexicanaUITests/Pods-Optica-Mexicana-Optica-MexicanaUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		79C53345E783276DD031B70E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Optica-Mexicana-Optica-MexicanaUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E462E3A629A2DFF200A6D6E9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E462E3B229A2DFF200A6D6E9 /* ViewController.swift in Sources */,
+				E47FDB5329AED7CD0088DB54 /* WelcomeViewController.swift in Sources */,
+				E462E3AE29A2DFF200A6D6E9 /* AppDelegate.swift in Sources */,
+				E47FDB5729AED7F30088DB54 /* RegisterViewController.swift in Sources */,
+				E47FDB5529AED7E10088DB54 /* LoginViewController.swift in Sources */,
+				E462E3B029A2DFF200A6D6E9 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E462E3BC29A2DFF700A6D6E9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E462E3C529A2DFF700A6D6E9 /* Optica_MexicanaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E462E3C629A2DFF700A6D6E9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E462E3D129A2DFF700A6D6E9 /* Optica_MexicanaUITestsLaunchTests.swift in Sources */,
+				E462E3CF29A2DFF700A6D6E9 /* Optica_MexicanaUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E462E3C229A2DFF700A6D6E9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E462E3A929A2DFF200A6D6E9 /* Optica-Mexicana */;
+			targetProxy = E462E3C129A2DFF700A6D6E9 /* PBXContainerItemProxy */;
+		};
+		E462E3CC29A2DFF700A6D6E9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E462E3A929A2DFF200A6D6E9 /* Optica-Mexicana */;
+			targetProxy = E462E3CB29A2DFF700A6D6E9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E462E3B829A2DFF600A6D6E9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E462E3B929A2DFF600A6D6E9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E462E3D229A2DFF700A6D6E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E462E3D329A2DFF700A6D6E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E462E3D529A2DFF700A6D6E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 762FED9EA2C7F7734E5EB4BF /* Pods-Optica-Mexicana.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CLF5XGZJ27;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Optica-Mexicana/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "";
+				INFOPLIST_KEY_UIRequiresFullScreen = NO;
+				INFOPLIST_KEY_UIStatusBarStyle = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "edgartobon.Optica-Mexicana";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		E462E3D629A2DFF700A6D6E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BB1415B71211AE88D095ED64 /* Pods-Optica-Mexicana.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CLF5XGZJ27;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Optica-Mexicana/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "";
+				INFOPLIST_KEY_UIRequiresFullScreen = NO;
+				INFOPLIST_KEY_UIStatusBarStyle = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "edgartobon.Optica-Mexicana";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		E462E3D829A2DFF700A6D6E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2CF2D8BE2B7A9DF8EB5AC490 /* Pods-Optica-MexicanaTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CLF5XGZJ27;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "edgartobon.Optica-MexicanaTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Optica-Mexicana.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Optica-Mexicana";
+			};
+			name = Debug;
+		};
+		E462E3D929A2DFF700A6D6E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 38100446FECBE8277129B17C /* Pods-Optica-MexicanaTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CLF5XGZJ27;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "edgartobon.Optica-MexicanaTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Optica-Mexicana.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Optica-Mexicana";
+			};
+			name = Release;
+		};
+		E462E3DB29A2DFF700A6D6E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 491DFE5C587F7B60A5097600 /* Pods-Optica-Mexicana-Optica-MexicanaUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CLF5XGZJ27;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "edgartobon.Optica-MexicanaUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				TEST_TARGET_NAME = "Optica-Mexicana";
+			};
+			name = Debug;
+		};
+		E462E3DC29A2DFF700A6D6E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5314FD835348FFEC6276B140 /* Pods-Optica-Mexicana-Optica-MexicanaUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CLF5XGZJ27;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "edgartobon.Optica-MexicanaUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				TEST_TARGET_NAME = "Optica-Mexicana";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E462E3A529A2DFF100A6D6E9 /* Build configuration list for PBXProject "Optica-Mexicana" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E462E3D229A2DFF700A6D6E9 /* Debug */,
+				E462E3D329A2DFF700A6D6E9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E462E3D429A2DFF700A6D6E9 /* Build configuration list for PBXNativeTarget "Optica-Mexicana" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E462E3D529A2DFF700A6D6E9 /* Debug */,
+				E462E3D629A2DFF700A6D6E9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E462E3D729A2DFF700A6D6E9 /* Build configuration list for PBXNativeTarget "Optica-MexicanaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E462E3D829A2DFF700A6D6E9 /* Debug */,
+				E462E3D929A2DFF700A6D6E9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E462E3DA29A2DFF700A6D6E9 /* Build configuration list for PBXNativeTarget "Optica-MexicanaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E462E3DB29A2DFF700A6D6E9 /* Debug */,
+				E462E3DC29A2DFF700A6D6E9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E462E3A229A2DFF100A6D6E9 /* Project object */;
+}
